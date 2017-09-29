@@ -12,7 +12,8 @@
     "react-dom": "^15.6.1",
     "react-headroom": "^2.2.0",
     "react-materialize": "^1.0.14",
-    "react-router": "^4.2.0"
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
   },
   "engines": {
     "node": "8.5.0"

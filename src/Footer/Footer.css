@@ -1,0 +1,101 @@
+.Footer {
+  margin-top: 20px;
+}
+
+.Footer .anchors {
+  height: 27px;
+  width: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.Footer .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer .gitHubLogo {
+  height: 20px;
+  width: 20px;
+}
+.Footer .share {
+  height: 25px;
+  width: 25px;
+}
+.Footer .linkedInLogo {
+  height: 25px;
+  width: 25px;
+}
+
+.Footer .subFooter {
+  background-color: #444242;
+}
+
+.Footer .contact {
+  background-color: #514e4e;
+  opacity: 0.8;
+}
+
+.Footer h3, .Footer h4 {
+  color: #9d9d9d;
+  padding-left: 50px;
+}
+
+.Footer .nav>li>a {
+  padding-right: 60px;
+  color: #9d9d9d;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: #514e4e;
+  color: #fff;
+}
+
+.Footer .row {
+  margin: 0;
+}
+
+.Footer .footerNav {
+  padding-right: 60px;
+  color: #9d9d9d;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  position: relative;
+  display: block;
+  padding-left: 15px;
+}
+
+.Footer .footerNav:hover {
+  text-decoration: none;
+  background-color: #514e4e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Footer .email {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .pull-right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Footer .nav>li>a {
+    padding-right: 5%;
+  }
+
+  .Footer h3, .Footer h4 {
+    text-align: center;
+    padding-right: 50px;
+  }
+}

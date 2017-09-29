@@ -1,0 +1,63 @@
+.Header .gitHubLogo {
+  height: 20px;
+  width: 20px;
+}
+
+.Header .name {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header .share {
+  height: 25px;
+  width: 25px;
+}
+
+.Header a {
+  color: #9d9d9d;
+}
+
+.Header .linkedInLogo {
+  height: 25px;
+  width: 25px;
+}
+
+.Header .anchors {
+  height: 27px;
+  width: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: #9d9d9d;
+}
+
+.Header h3 {
+  margin: 0;
+}
+
+.navbar-inverse {
+  border-radius: 0;
+  background-image: none;
+  background-color: #444242;
+  border-color: #444242;
+}
+
+.Header a:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .Header .navbar-nav>li>a:hover {
+    transform: scale(1);
+  }
+}
